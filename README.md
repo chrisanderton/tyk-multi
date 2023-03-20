@@ -48,3 +48,10 @@ volumes:
 networks:
   gateway:
 ```
+
+## Binaries
+
+* Gateway: `/opt/tyk-gateway/tyk`
+* Pump: `/opt/tyk-pump/tyk-pump`
+* Sync: `/opt/tyk-sync/tyk-sync`
+* Identity broker: `/opt/tyk-identity-broker/tyk-identity-broker`
