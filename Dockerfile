@@ -67,4 +67,4 @@ COPY --from=builder /opt/tyk-sync/ /opt/tyk-sync/
 COPY --from=builder /opt/tyk-identity-broker/ /opt/tyk-identity-broker/
 COPY --from=builder /opt/tyk-identity-broker/tib_sample.conf /opt/tyk-identity-broker/tib.conf
 
-ENTRYPOINT ["/opt/tyk-gateway/tyk"]%     
+ENTRYPOINT ["/opt/tyk-gateway/tyk"]
